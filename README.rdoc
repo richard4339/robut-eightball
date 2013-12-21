@@ -2,6 +2,8 @@
 
 An 8 Ball module for [Robut](https://github.com/justinweiss/robut)
 
+{<img src="https://badge.fury.io/rb/robut-eightball.png" alt="Gem Version" />}[http://badge.fury.io/rb/robut-eightball]
+
 == Contributing to robut-eightball
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
