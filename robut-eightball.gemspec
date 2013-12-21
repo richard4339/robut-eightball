@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/robut-eightball.rb",
+    "robut-eightball.gemspec",
     "test/helper.rb",
     "test/test_robut-eightball.rb"
   ]
