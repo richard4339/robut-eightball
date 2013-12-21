@@ -1,7 +1,7 @@
 require 'calc'
 
-# Magic 8 Ball
-class Robut::Plugin::Magic8Ball
+# 8 Ball
+class Robut::Plugin::EightBall
   include Robut::Plugin
 
   desc "8ball - respond with an 8ball response"
@@ -26,8 +26,12 @@ class Robut::Plugin::Magic8Ball
                "My sources say no",
                "Outlook not so good",
                "Very doubtful"]
-    rsp = answers[rand(answers.length)]
+    rsp = answers[random(answers.length)]
     reply("#{rsp}") if rsp
+  end
+
+  def random(c)
+    rand(c)
   end
 
 end
