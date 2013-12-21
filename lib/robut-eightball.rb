@@ -4,7 +4,7 @@ require 'calc'
 class Robut::Plugin::EightBall
   include Robut::Plugin
 
-  desc "8ball - respond with an 8ball response"
+  desc "8ball <question> - respond with an 8ball response"
   match /^8ball (.*)/, :sent_to_me => true do |message|
     answers = ["It is certain",
                "It is decidedly so",
